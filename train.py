@@ -17,8 +17,8 @@ from sklearn.metrics import (
     accuracy_score, classification_report, roc_auc_score
 )
 
-from preprocess import preprocess_data
-from models import get_random_forest, get_logistic_regression
+from preprocessing import preprocess_data
+from model import get_random_forest, get_logistic_regression
 
 
 # ─── Config ───────────────────────────────────────────────────────────────────

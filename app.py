@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import plotly.graph_objects as go
 
-from preprocess import preprocess_single_input
-from models import classify_risk, get_recommendations
+from preprocessing import preprocess_single_input
+from model import classify_risk, get_recommendations
 
 
 # ─── Page config (MUST be first Streamlit call) ───────────────────────────────
